@@ -2,9 +2,17 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Identificar Números Pares e Impares</title>
+    <link rel="stylesheet" href="../css/lisnumint.css">
 </head>
 <body>
-    
+    <h1>Identificar Números Pares e Impares</h1>
+    <div class="input-container">
+        <label for="numeros">Ingrese una lista de números enteros separados por coma:</label>
+        <input type="text" id="numeros" placeholder="Ejemplo: 20, 10, 2, 11, 3">
+    </div>
+    <button onclick="identificarParesImpares()">Identificar</button>
+    <div id="resultado"></div>
+    <script src="../js/lisnumint.js"></script>
 </body>
 </html>
