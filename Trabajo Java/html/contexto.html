@@ -2,9 +2,24 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Buscar y Resaltar Texto</title>
+    <link rel="stylesheet" href="../css/contexto.css">
 </head>
 <body>
-    
+    <h1>Buscar y Resaltar Texto</h1>
+    <div class="search-container">
+        <label for="search-input">Texto a buscar:</label>
+        <input type="text" id="search-input" placeholder="Ingrese el texto a buscar">
+    </div>
+    <div class="search-container">
+        <label for="user-text">Texto en el que resaltar:</label>
+        <textarea id="user-text" rows="4" cols="50" placeholder="Ingrese el texto en el que se resaltarán las palabras"></textarea>
+    </div>
+    <button onclick="searchAndHighlight()">Buscar</button>
+    <div class="result-container">
+        <h2>Texto Resaltado:</h2>
+        <p id="highlighted-text"></p>
+    </div>
+    <script src="../js/contexto.js"></script>
 </body>
 </html>
