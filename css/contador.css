@@ -1,6 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
     text-align: center;
+    background-color: #042940;
+    color: #D6D58E;
+}
+
+h1 {
+    color: #9FC131;
+    text-align: center;
+}
+
+
+.contarCar { 
+    background-color: #9FC131;
+    color: #042940;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea {
+    padding: 5px;
+    border: 1px solid #9FC131;
+    border-radius: 5px;
 }
 
 label {
